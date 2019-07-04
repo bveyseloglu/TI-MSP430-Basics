@@ -1,5 +1,5 @@
-# MSP430-Basics
-Basic tutorials for Texas Instruments MSP430, both Assembly and C.
+## MSP430-Basics
+Basic tutorials for Texas Instruments MSP430FR5969, both Assembly and C. These are my laboratory work for Microprocessor I course.
 
-# Development Environment
-This repo was made for MSP430FR5969. Codes were tested on Code Composer Studio 7.
+## Development Environment
+Codes were tested on Code Composer Studio 7.
