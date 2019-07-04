@@ -1,0 +1,12 @@
+﻿Suppose we want to implement an addition function to perform the following: c=a+b
+The terms (a,b) are to be passed by value. The sum (c) is to be passed by reference. This can be implemented in C as such:
+void addition(int a, int b, int* c)
+{
+*c = a + b;
+}
+
+Implement this in ARM assembly as a subroutine, and use it to add two numbers.
+* (a,b,c) are word-sized.
+* Your subroutine should not change register or memory contents (except for c).
+* Upon returning from the subroutine, SP should remain unchanged.
+* All arguments are passed by stack.
