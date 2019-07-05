@@ -13,22 +13,22 @@ Codes were tested on Code Composer Studio 7.
 5 – Continuing from 4, add the numbers stored to the memory and store the result in R6.\
 
 ### 2. Memory Operations and Branches
-1 – Using assembler directives, create an array in the memory, and initialize it with the numbers below (use .word):
-9712, 2454, 1275, 3312, 4243, 2395, 4387, 12236, 9454, 32221
-2 – Find the number of elements that are greater than 10000 in the array created in step 1 and store the result in R9.
-3 – Create a 20 byte-long uninitialized section in the memory (use .bss).
-4 – Fill the buffer created in step 3 with even numbers starting from 2. Numbers will be stored as words.
+1 – Using assembler directives, create an array in the memory, and initialize it with the numbers below (use .word):\
+9712, 2454, 1275, 3312, 4243, 2395, 4387, 12236, 9454, 32221\
+2 – Find the number of elements that are greater than 10000 in the array created in step 1 and store the result in R9.\
+3 – Create a 20 byte-long uninitialized section in the memory (use .bss).\
+4 – Fill the buffer created in step 3 with even numbers starting from 2. Numbers will be stored as words.\
 
 ### 3. Memory Operations
 #### Part 1
-1 – Using the assembler directives, store the 64-bit number below in the memory.
-0x2be51cf06549a0d1
-2 – Read the number given in step 1 from the memory, shift left once, overwrite the result.
+1 – Using the assembler directives, store the 64-bit number below in the memory.\
+0x2be51cf06549a0d1\
+2 – Read the number given in step 1 from the memory, shift left once, overwrite the result.\
 
 #### Part 2
-1– Using the assembler directives, store the date to the memory as three words.
-e.g.: 6, 3, 18 (day, month, year)
-2 – Using the representation below, format this date into a single word. Store the result in R9.
+1– Using the assembler directives, store the date to the memory as three words.\
+e.g.: 6, 3, 18 (day, month, year)\
+2 – Using the representation below, format this date into a single word. Store the result in R9.\
 
 | Day (1-31) | Month (1-12) | Year (00-99) |
 |------------|--------------|--------------|
@@ -36,11 +36,11 @@ e.g.: 6, 3, 18 (day, month, year)
 
 ### 4. Subroutines and Stack
 Suppose we want to implement an addition function to perform the following: c=a+b
-The terms (a,b) are to be passed by value. The sum (c) is to be passed by reference. This can be implemented in C as such:
-void addition(int a, int b, int* c)
-{
-*c = a + b;
-}
+The terms (a,b) are to be passed by value. The sum (c) is to be passed by reference. This can be implemented in C as such:\
+void addition(int a, int b, int* c)\
+{\
+*c = a + b;\
+}\
 
 Implement this in ARM assembly as a subroutine, and use it to add two numbers.
 * (a,b,c) are word-sized.
