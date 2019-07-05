@@ -1,1 +1,0 @@
-Set up the circuit from 6. Implement the same program in C using timer interrupts. Instead of using 1 second-long delays, set up a timer interrupt that gets activated every second.
