@@ -1,1 +1,0 @@
-Write a C program that displays digits starting from 0 up to 9 on the seven-segment display. Each digit will be displayed for 1 second. Once the count reaches 9, it will loop back to 0 and continue from there.
