@@ -1,1 +1,0 @@
-Do some basic I/O stuff by using LEDs and switches.
