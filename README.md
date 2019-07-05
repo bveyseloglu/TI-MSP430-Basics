@@ -2,7 +2,7 @@
 Basic tutorials for Texas Instruments MSP430FR5969, both Assembly and C. These are my laboratory work for Microprocessors I course.
 
 ## Development Environment
-Codes were tested on Code Composer Studio 7.
+Codes were tested on Code Composer Studio v7.
 
 ## Lab Tasks
 ### 1. Register Operations
