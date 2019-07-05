@@ -3,3 +3,6 @@ Basic tutorials for Texas Instruments MSP430FR5969, both Assembly and C. These a
 
 ## Development Environment
 Codes were tested on Code Composer Studio 7.
+
+## License
+Licensed under MIT License.
